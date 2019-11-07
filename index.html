@@ -67,21 +67,43 @@
         </div>
       </header>
       <!-- END OF HEADER SECTION -->
-      <div class="container">
+      <!-- <div class="container">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
           exercitationem quibusdam iure libero perferendis. Soluta sit,
           recusandae fugiat eaque nisi ut, perferendis optio sunt error
           consequatur ex cum repellendus repudiandae.
         </p>
-      </div>
+      </div> -->
       <!-- ORDER SECTION -->
       <div class="container-fluid order">
         <div class="container">
-          <h3 class="text-center">ORDER NOW </h3>
+          <h3 class="text-center">ORDER NOW</h3>
           <div>
-            <img src="./images/pizza-delivery" alt="" class="img-fluid">
+            <img src="./images/pizza-delivery" alt="" class="img-fluid" />
           </div>
+        </div>
+        <div class="container">
+          <form action="" method="POST" name="form" id="form">
+            <h2>Order Pizza Delivery</h2>
+            <!-- Pizza order should contain, 
+              small,medium and large pizza. 
+              Choose crust needed e.g Cripsy, stuffed and Gluten free
+              Toppings -
+              place order and have total
+            -->
+            <div>
+              <label for="size">Choose the size of pizza</label>
+              <select name="size" id="size">
+                <option value="large">Large</option>
+                <option value="medium">Medium</option>
+                <option value="small">Small</option>
+              </select>
+            </div>
+            <div>
+              <label for="crust"></label>
+            </div>
+          </form>
         </div>
       </div>
     </main>
