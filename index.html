@@ -92,28 +92,36 @@
               Toppings -
               place order and have total
             -->
-            <div>
+            <div class="form-group">
               <label for="size">Choose the size of pizza</label>
-              <select name="size" id="size">
+              <select name="size" id="size" class="form-control">
                 <option value="large">Large</option>
                 <option value="medium">Medium</option>
                 <option value="small">Small</option>
               </select>
             </div>
-            <div>
+            <div class="form-group">
               <label for="crust">
-                <select name="crust" id="Crush">
+                <select name="crust" id="Crust" class="form-control">
                   <option value="cripsy">Cripsy</option>
                   <option value="stuffed">Stuffed</option>
                   <option value="gluten free">Gluten Free</option>
                 </select>
               </label>
             </div>
-            <div>
+            <div class="form-group">
               <label for="toppings">Toppings</label>
-              <select name="toppings" id="toppings">
-                <option value=""></option>
+              <select name="toppings" id="toppings" class="form-control">
+                <option value="toppings1">toppings1</option>
+                <option value="toppings2">toppings2</option>
+                <option value="toppings3">Toppings3</option>
               </select>
+            </div>
+            <div>
+              <input type="text" id="total" value="0" readonly size="3" />
+            </div>
+            <div>
+              <input type="submit" class="btn btn-secondary" />
             </div>
           </form>
         </div>
