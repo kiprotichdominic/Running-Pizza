@@ -83,44 +83,52 @@
           </div>
         </div>
         <div class="container">
-          <form action="" method="POST" name="form" id="form">
-            <h2>Order Pizza Delivery</h2>
-            <!-- Pizza order should contain, 
-              small,medium and large pizza. 
-              Choose crust needed e.g Cripsy, stuffed and Gluten free
-              Toppings -
-              place order and have total
-            -->
-            <div class="form-group">
-              <label for="size">Choose the size of pizza</label>
-              <select name="size" id="size" class="form-control">
-                <option value="large">Large</option>
-                <option value="medium">Medium</option>
-                <option value="small">Small</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="crust">
-                <select name="crust" id="crust" class="form-control">
-                  <option value="cripsy">Cripsy</option>
-                  <option value="stuffed">Stuffed</option>
-                  <option value="gluten free">Gluten Free</option>
-                </select>
-              </label>
-            </div>
-            <div class="form-group">
-              <label for="toppings">Toppings</label>
-              <select name="toppings" id="toppings" class="form-control">
-                <option value="toppings1">toppings1</option>
-                <option value="toppings2">toppings2</option>
-                <option value="toppings3">Toppings3</option>
-              </select>
-            </div>
+          <form action="" method="POST" name="myForm" id="myForm">
+            <h1>Place your order</h1>
             <div>
-              <input type="text" id="totalcost" value="0" readonly size="3" />
-            </div>
+              <div>
+                <h3>Pizza Size</h3>
+                <div>
+                  <label for="small">Small Ksh. 300</label>
+                  <select id="small">
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+                <div>
+                    <label for="medium">Medium Ksh. 300</label>
+                    <select id="medium">
+                      <option>0</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                  <div>
+                      <label for="large">Large Ksh. 300</label>
+                      <select id="large">
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                    </div>
+              </div>
+            <h3>Cost</h3>
             <div>
-              <input type="submit" value="submit" class="btn btn-secondary" />
+              Ksh<input type="text" id="cost" value="0" readonly size="3" />
+            </div>
+
+            <div>
+              <input type="submit" />
             </div>
           </form>
         </div>
