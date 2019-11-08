@@ -1,8 +1,8 @@
 function updateTotal() {
     var tot = 0;
     tot += f.small.value * 300 +
-        f.medium.value * 3.5 +
-        f.large.value * 12;
+        f.medium.value * 450 +
+        f.large.value * 750;
     document.getElementById("cost").value = tot.toFixed(2);
 }
 
@@ -16,6 +16,6 @@ for (var i = 0; i < sel.length; i++) {
 }
 
 f.onsubmit = function () {
-    alert("Your total cost will be: \\$" + f.cost.value);
+    alert("Your total cost will be: Ksh" + f.cost.value);
     return false;
 }
