@@ -2,7 +2,8 @@ function updateTotal() {
     var tot = 0;
     tot += f.small.value * 300 +
         f.medium.value * 450 +
-        f.large.value * 750;
+        f.large.value * 750 +
+        f.toppings.value * 50;
     document.getElementById("cost").value = tot.toFixed(2);
 }
 
