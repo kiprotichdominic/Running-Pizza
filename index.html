@@ -83,55 +83,78 @@
           </div>
         </div>
         <div class="container">
-          <form action="" method="POST" name="myForm" id="myForm">
-            <h1>Place your order</h1>
-            <div>
-              <div>
-                <h3>Pizza Size</h3>
-                <div>
-                  <label for="small">Small Ksh. 300</label>
-                  <select id="small">
-                    <option>0</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                  </select>
-                </div>
-                <div>
-                    <label for="medium">Medium Ksh. 450</label>
-                    <select id="medium">
-                      <option>0</option>
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                  <div>
-                      <label for="large">Large Ksh. 750</label>
-                      <select id="large">
-                        <option>0</option>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
+          <br>
+            <div class="row">
+              <div class="col-md-4 col-sm-12">
+                
+                  <div class="card">
+                      <!-- <img src="..." class="card-img-top" alt="..." /> -->
+                      <div class="card-body">
+                        <h5 class="card-title">Small Pizza</h5>
+                        <h6>Crust</h6>
+                        <select id="crust">
+                          <option value="cripsy">Cripsy. Ksh. 250</option>
+                          <option value="stuffed">Stuffed. Ksh. 150</option>
+                          <option value="glutenfree">Gluten-Free . Ksh. 100</option>
+                        </select>
+                        <h6>Toppings</h6>
+                        <select id="crust">
+                            <option value="pepperoni">Pepperoni. Ksh. 200</option>
+                            <option value="veges">Veges. Ksh. 50</option>
+                            <option value="bacon">Bacon . Ksh. 90</option>
+                        </select>
+                        &nbsp;
+                        <button class="btn btn-primary">Proceed To CheckOut</button>
+                      </div>
+                    </div>
+               </div>
+              <div class="col-md-4">
+                  <div class="card">
+                      <!-- <img src="..." class="card-img-top" alt="..." /> -->
+                      <div class="card-body">
+                        <h5 class="card-title">Medium Pizza</h5>
+                        <h6>Crust</h6>
+                        <select id="crust">
+                          <option value="cripsy">Cripsy. Ksh. 250</option>
+                          <option value="stuffed">Stuffed. Ksh. 150</option>
+                          <option value="glutenfree">Gluten-Free . Ksh. 100</option>
+                        </select>
+                        <h6>Toppings</h6>
+                        <select id="crust">
+                            <option value="pepperoni">Pepperoni. Ksh. 200</option>
+                            <option value="veges">Veges. Ksh. 50</option>
+                            <option value="bacon">Bacon . Ksh. 90</option>
+                        </select>
+                        &nbsp;
+                        <button class="btn btn-primary">Proceed To CheckOut</button>
+                      </div>
                     </div>
               </div>
-              <div>
-                <h3>Pizza Toppings</h3>
-                <div>
-                  <label for="toppings">Large Ksh. 50</label>
-                  <select id="toppings">
-                    <option>0</option>
-                    <option>1</option>
-                  </select>
-                </div>
+              <div class="col-md-4">
+                  <div class="card">
+                      <!-- <img src="..." class="card-img-top" alt="..." /> -->
+                      <div class="card-body">
+                        <h5 class="card-title">Large Pizza</h5>
+                        <h6>Crust</h6>
+                        <select id="crust">
+                          <option value="cripsy">Cripsy. Ksh. 250</option>
+                          <option value="stuffed">Stuffed. Ksh. 150</option>
+                          <option value="glutenfree">Gluten-Free . Ksh. 100</option>
+                        </select>
+                        <h6>Toppings</h6>
+                        <select id="crust">
+                            <option value="pepperoni">Pepperoni. Ksh. 200</option>
+                            <option value="veges">Veges. Ksh. 50</option>
+                            <option value="bacon">Bacon . Ksh. 90</option>
+                        </select>
+                        &nbsp;
+                        <button class="btn btn-primary" type="submit">Proceed To CheckOut</button>
+                      </div>
+                    </div>
               </div>
+            </div>
+          <form action="" method="POST" name="myForm" id="myForm">
+            
             <h3>Cost</h3>
             <div>
               Ksh<input type="text" id="cost" value="0" readonly size="3" />
