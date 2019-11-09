@@ -1,4 +1,26 @@
+function updateTotal() {
+    var tot = 0;
+    tot +=
+        toppings.value * 1 +
+        crust.value * 1 +
+        size.value * 1;
+    document.getElementById("cost").value = tot.toFixed(2);
+}
 
+var f = document.forms["myForm"];
+var sel = document.getElementsByTagName("select");
+var check = document.getElementById("checkbox");
+
+for (var i = 0; i < sel.length; i++) {
+    sel[i].onchange = function () {
+        updateTotal();
+    };
+}
+
+f.onsubmit = function () {
+    alert("Your total cost will be: \\$" + f.cost.value);
+    return false;
+};
 
 
 
