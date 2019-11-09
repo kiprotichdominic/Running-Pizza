@@ -75,137 +75,58 @@
           </div>
         </div>
         <div class="container">
-          <br />
-          <div class="row">
-            <div class="col-md-4 col-sm-12">
-              <div class="card">
-                <!-- <img src="..." class="card-img-top" alt="..." /> -->
-                <div class="card-body" id="form">
-                  <h5 class="card-title">Small Pizza</h5>
-                  <form id = "myForm">
-                    <div class="form-group">
-                        <label for="sel1">Select size:</label>
-                        <select class="form-control" id="size">
-                            <option value="3">Small---350</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="sel1">Select crust:</label>
-                        <select class="form-control" id="crust">
-                            <option>Cripsy</option>
-                            <option>Stuffed</option>
-                            <option>Gluten-free</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="sel1">Select topping:</label>
-                        <select class="form-control" id="top">
-                            <option>Pepperoni</option>
-                            <option>Mushrooms</option>
-                            <option>Bacon</option>
-                        </select>
-                    </div>
-                    <div class="form-group" required>
-                        <label for="sel1">Quantity:</label>
-                        <input type="number" id="qty" class="form-control" min="1" required>
-                    </div>
-                    <div class="form-group">
-
-                        <button type="submit" class="btn btn-primary btn-block">checkout</button>
-
-                    </div>
-                </form>
+            <div class="row">
+                <div class="col-md-12">
+                   <div class="card">
+                     <div class="card-body">
+                        <form action="" method="POST" name="myForm" id="myForm">
+                            <h3 class="text-center">Order Your Pizza</h3>
+                            <div class="form-group">
+                              <label for="sel1">Select size:</label><br> 
+                              <select class="form-control" id="size">
+                                <option value="0">Select Size</option>
+                                <option value="350">Small---350</option>
+                                <option value="500">Medium---500</option>
+                                <option value="700">Large---700</option>
+                              </select>
+                            </div>
+                            <div>
+                              <label>Select crust:</label><br />
+                              <select class="form-control" id="crust">
+                                <option value="0">Select Crust</option>
+                                <option value="200">Cripsy</option>
+                                <option value="150">Stuffed</option>
+                                <option value="100">Gluten-free</option>
+                              </select>
+                            </div>
+                            <div>
+                              <label for="sel1">Select topping:</label><br />
+                              <select class="form-control" id="toppings">
+                                <option value="0">Select Toppings</option>
+                                <option value="200">Pepperoni</option>
+                                <option value="100">Mushrooms</option>
+                                <option value="50">Bacon</option>
+                              </select>
+                            </div>
+                            <div>
+                      
+                            <h3>Cost</h3>
+                            <div>$<input type="text" id="cost" value="0" readonly size="3" /></div>
+                      
+                            <div>
+                              <input type="submit" />
+                            </div>
+                          </form>
+                     </div>
+                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card">
-                <!-- <img src="..." class="card-img-top" alt="..." /> -->
-                <div class="card-body" id="form">
-                  <h5 class="card-title">Medium Pizza</h5>
-                  <form id = "myForm">
-                    <div class="form-group">
-                        <label for="sel1">Select size:</label>
-                        <select class="form-control" id="size">
-                            <option value="2">Medium---600</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="sel1">Select crust:</label>
-                        <select class="form-control" id="crust">
-                            <option>Cripsy</option>
-                            <option>Stuffed</option>
-                            <option>Gluten-free</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="sel1">Select topping:</label>
-                        <select class="form-control" id="top">
-                            <option>Pepperoni</option>
-                            <option>Mushrooms</option>
-                            <option>Bacon</option>
-                        </select>
-                    </div>
-                    <div class="form-group" required>
-                        <label for="sel1">Quantity:</label>
-                        <input type="number" id="qty" class="form-control" min="1" required>
-                    </div>
-                    <div class="form-group">
-
-                        <button type="submit" class="btn btn-primary btn-block">checkout</button>
-
-                    </div>
-                </form>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card">
-                <!-- <img src="..." class="card-img-top" alt="..." /> -->
-                <div class="card-body" id="form">
-                  <h5 class="card-title">Large Pizza</h5>
-                  <form id = "myForm">
-                    <div class="form-group">
-                        <label for="sel1">Select size:</label>
-                        <select class="form-control" id="size">
-                            <option value="1">Large---1000</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="sel1">Select crust:</label>
-                        <select class="form-control" id="crust">
-                            <option>Cripsy</option>
-                            <option>Stuffed</option>
-                            <option>Gluten-free</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="sel1">Select topping:</label>
-                        <select class="form-control" id="top">
-                            <option>Pepperoni</option>
-                            <option>Mushrooms</option>
-                            <option>Bacon</option>
-                        </select>
-                    </div>
-                    <div class="form-group" required>
-                        <label for="sel1">Quantity:</label>
-                        <input type="number" id="qty" class="form-control" min="1" required>
-                    </div>
-                    <div class="form-group">
-
-                        <button type="submit" class="btn btn-primary btn-block">checkout</button>
-
-                    </div>
-                </form>
-                </div>
-              </div>
-            </div>
-          </div>
-          &nbsp;
+            <br>
+            <div class="container">
           <div class="row">
             <div class="col-md-12">
               <div class="card">
-                <!-- <img src="..." class="card-img-top" alt="..." /> -->
                 <div class="card-body">
                   <h5 class="card-title">Your Order</h5>
                   &nbsp;
