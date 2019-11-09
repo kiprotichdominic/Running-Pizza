@@ -58,3 +58,13 @@ function calculatePrice(crust) {
         return crust.glutenfree * 1;
     }
 }
+
+function calculatePrice(toppings) {
+    if (veges === "veges") {
+        return toppings.veges * 1;
+    } else if (pepperoni === "pepperoni") {
+        return toppings.pepperoni * 1;
+    } else {
+        return toppings.bacon * 1;
+    }
+}
