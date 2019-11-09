@@ -82,32 +82,39 @@
                 <!-- <img src="..." class="card-img-top" alt="..." /> -->
                 <div class="card-body" id="form">
                   <h5 class="card-title">Small Pizza</h5>
-                  <div>
-                    <label for="tiger">Small Pizza Ksh. 350</label>
-                    Quantity
-                    <select id="tiger">
-                      <option>0</option>
-                      <option>buy 1</option>
-                      <option>buy 2</option>
-                      <option>buy 3</option>
-                      <option>buy 4</option>
-                      <option>buy 5</option>
-                    </select>
-                  </div>
-                  <h6>Crust</h6>
-                  <select id="crust">
-                    <option value="250">Cripsy. Ksh. 250</option>
-                    <option value="150">Stuffed. Ksh. 150</option>
-                    <option value="100">Gluten-Free . Ksh. 100</option>
-                  </select>
-                  <h6>Toppings</h6>
-                  <select id="crust">
-                    <option value="200">Pepperoni. Ksh. 200</option>
-                    <option value="50">Veges. Ksh. 50</option>
-                    <option value="90">Bacon . Ksh. 90</option>
-                  </select>
-                  &nbsp;
-                  <button class="btn btn-primary">Add To Cart</button>
+                  <form id = "myForm">
+                    <div class="form-group">
+                        <label for="sel1">Select size:</label>
+                        <select class="form-control" id="size">
+                            <option value="3">Small---350</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="sel1">Select crust:</label>
+                        <select class="form-control" id="crust">
+                            <option>Cripsy</option>
+                            <option>Stuffed</option>
+                            <option>Gluten-free</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="sel1">Select topping:</label>
+                        <select class="form-control" id="top">
+                            <option>Pepperoni</option>
+                            <option>Mushrooms</option>
+                            <option>Bacon</option>
+                        </select>
+                    </div>
+                    <div class="form-group" required>
+                        <label for="sel1">Quantity:</label>
+                        <input type="number" id="qty" class="form-control" min="1" required>
+                    </div>
+                    <div class="form-group">
+
+                        <button type="submit" class="btn btn-primary btn-block">checkout</button>
+
+                    </div>
+                </form>
                 </div>
               </div>
             </div>
@@ -116,30 +123,39 @@
                 <!-- <img src="..." class="card-img-top" alt="..." /> -->
                 <div class="card-body" id="form">
                   <h5 class="card-title">Medium Pizza</h5>
-                  <label for="tiger">Medium Pizza Ksh. 450</label>
-                  Quantity
-                  <select id="tiger">
-                    <option>0</option>
-                    <option>buy 1</option>
-                    <option>buy 2</option>
-                    <option>buy 3</option>
-                    <option>buy 4</option>
-                    <option>buy 5</option>
-                  </select>
-                  <h6>Crust</h6>
-                  <select id="crust">
-                    <option value="cripsy">Cripsy. Ksh. 250</option>
-                    <option value="stuffed">Stuffed. Ksh. 150</option>
-                    <option value="glutenfree">Gluten-Free . Ksh. 100</option>
-                  </select>
-                  <h6>Toppings</h6>
-                  <select id="crust">
-                    <option value="pepperoni">Pepperoni. Ksh. 200</option>
-                    <option value="veges">Veges. Ksh. 50</option>
-                    <option value="bacon">Bacon . Ksh. 90</option>
-                  </select>
-                  &nbsp;
-                  <button class="btn btn-primary">Add To Cart</button>
+                  <form id = "myForm">
+                    <div class="form-group">
+                        <label for="sel1">Select size:</label>
+                        <select class="form-control" id="size">
+                            <option value="2">Medium---600</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="sel1">Select crust:</label>
+                        <select class="form-control" id="crust">
+                            <option>Cripsy</option>
+                            <option>Stuffed</option>
+                            <option>Gluten-free</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="sel1">Select topping:</label>
+                        <select class="form-control" id="top">
+                            <option>Pepperoni</option>
+                            <option>Mushrooms</option>
+                            <option>Bacon</option>
+                        </select>
+                    </div>
+                    <div class="form-group" required>
+                        <label for="sel1">Quantity:</label>
+                        <input type="number" id="qty" class="form-control" min="1" required>
+                    </div>
+                    <div class="form-group">
+
+                        <button type="submit" class="btn btn-primary btn-block">checkout</button>
+
+                    </div>
+                </form>
                 </div>
               </div>
             </div>
@@ -148,36 +164,39 @@
                 <!-- <img src="..." class="card-img-top" alt="..." /> -->
                 <div class="card-body" id="form">
                   <h5 class="card-title">Large Pizza</h5>
-                  <label for="tiger">Large Pizza Ksh. 700</label>
-                  Quantity
-                  <select id="tiger">
-                    <option>0</option>
-                    <option>buy 1</option>
-                    <option>buy 2</option>
-                    <option>buy 3</option>
-                    <option>buy 4</option>
-                    <option>buy 5</option>
-                  </select>
-                  <h6>Crust</h6>
-                  <select id="crust" class="form">
-                    <option value="250">Cripsy. Ksh. 250</option>
-                    <option value="150">Stuffed. Ksh. 150</option>
-                    <option value="100">Gluten-Free . Ksh. 100</option>
-                  </select>
-                  <h6>Toppings</h6>
-                  <select id="crust" class="form">
-                    <option value="pepperoni">Pepperoni. Ksh. 200</option>
-                    <option value="veges">Veges. Ksh. 50</option>
-                    <option value="bacon">Bacon . Ksh. 90</option>
-                  </select>
-                  &nbsp;
-                  <button
-                    class="btn btn-primary"
-                    type="submit"
-                    value="Place order"
-                  >
-                    Add To Cart
-                  </button>
+                  <form id = "myForm">
+                    <div class="form-group">
+                        <label for="sel1">Select size:</label>
+                        <select class="form-control" id="size">
+                            <option value="1">Large---1000</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="sel1">Select crust:</label>
+                        <select class="form-control" id="crust">
+                            <option>Cripsy</option>
+                            <option>Stuffed</option>
+                            <option>Gluten-free</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="sel1">Select topping:</label>
+                        <select class="form-control" id="top">
+                            <option>Pepperoni</option>
+                            <option>Mushrooms</option>
+                            <option>Bacon</option>
+                        </select>
+                    </div>
+                    <div class="form-group" required>
+                        <label for="sel1">Quantity:</label>
+                        <input type="number" id="qty" class="form-control" min="1" required>
+                    </div>
+                    <div class="form-group">
+
+                        <button type="submit" class="btn btn-primary btn-block">checkout</button>
+
+                    </div>
+                </form>
                 </div>
               </div>
             </div>

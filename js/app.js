@@ -80,24 +80,18 @@ function sizePrice(crust) {
     }
 }
 //ui logic
+$(document).ready(function () {
+    function crustPrice() {
+        return $("#tiger").find(":selected").val();
+    }
+    function toppingsPrice() {
+        return $("#crust").find(":selected").val();
+    }
+    function crustPrice() {
+        return $("#tiger").find(":selected").val();
+    }
+})
 $("#form").submit(function (event) {
     event.preventDefault();
-    var 
+    var
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
