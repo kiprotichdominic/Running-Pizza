@@ -1,5 +1,6 @@
 //create variables for toppings and crust
 //crust
+//business logic
 var cripsy = {
     name: "cripsy",
     price: 60
@@ -49,7 +50,7 @@ function Pizza(crust, toppings) {
     this.toppings = toppings;
 }
 //calculating price
-function calculatePrice(crust) {
+function crustPrice(crust) {
     if (crust === "cripsy") {
         return crust.cripsy * 1;
     } else if (crust === "stuffed") {
@@ -59,7 +60,7 @@ function calculatePrice(crust) {
     }
 }
 
-function calculatePrice(toppings) {
+function toppingsPrice(toppings) {
     if (veges === "veges") {
         return toppings.veges * 1;
     } else if (pepperoni === "pepperoni") {
@@ -68,3 +69,35 @@ function calculatePrice(toppings) {
         return toppings.bacon * 1;
     }
 }
+
+function sizePrice(crust) {
+    if (size === "small") {
+        return size.small * 1;
+    } else if (size === "medium") {
+        return size.medium * 1;
+    } else {
+        return size.large * 1;
+    }
+}
+//ui logic
+$("#form").submit(function (event) {
+    event.preventDefault();
+    var 
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
