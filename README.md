@@ -18,8 +18,10 @@ We give you a platform with unlimited possibilities.
 - Feel free to contribute to this project.
 
 ## Behaviour Driven Development
- ### Kipchoge Pizza landing page.
- - You click the buy button and it takes you to the buying section.
+
+### Kipchoge Pizza landing page
+
+- You click the buy button and it takes you to the buying section.
 <img src="images/home.png">
 
 ## Known Bugs

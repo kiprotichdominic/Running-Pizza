@@ -9,10 +9,12 @@
 body {
     font-family: Lato;
 }
-.navbar a{
+
+.navbar a {
     font-size: 1.8em !important;
     font-weight: bold !important;
 }
+
 #imgtop {
     background: transparent;
 }
@@ -32,6 +34,10 @@ body {
     color: white;
     font-weight: bold;
     font-size: 2vw;
+}
+
+.imagetext>h1 {
+    font-weight: bold;
 }
 
 /* keyframes form welcome */
@@ -77,7 +83,7 @@ body {
 
 /* ORDER SECTION STYLING */
 .order {
-    background-image: linear-gradient(gold,grey);
+    background-image: linear-gradient(gold, grey);
 }
 
 #ordernow {
