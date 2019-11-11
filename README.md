@@ -21,7 +21,7 @@ We give you a platform with unlimited possibilities.
 
 ## Known Bugs
 
-My Delani Studio is a fictional studio.
+My website location on google maps is not correct.
 
 ## Live link to my site
 

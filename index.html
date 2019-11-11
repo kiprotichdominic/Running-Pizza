@@ -72,8 +72,14 @@
 						<div>
 							<img src="./images/pizza-delivery" alt="" class="img-fluid" />
 						</div>
-          </div>
-          &nbsp;
+					</div>
+					<br />
+					<div class="alert-success alert myalert container" id="alert1" style="display: none;">
+						<p>
+							<span id="span1"></span>
+						</p>
+					</div>
+					&nbsp;
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -108,9 +114,13 @@
 													<option value="50">Bacon</option>
 												</select>
 											</div>
+											<br />
+											<label for="location">Enter Delivery Location:</label><br />
+											<input type="text" placeholder="enter location" id="location" />
 											<h3>Cost</h3>
+											<div id="yourcart"></div>
 											<div>$<input type="text" id="cost" value="0" readonly size="3" /></div>
-
+											<br />
 											<div>
 												<input type="submit" />
 											</div>
@@ -122,24 +132,6 @@
 					</div>
 				</div>
 				<br />
-				<div class="container-fluid">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12">
-								<div class="card">
-									<div class="card-body">
-										<h5 class="card-title">Your Order</h5>
-										&nbsp;
-										<div>Ksh<input type="text" id="cost" value="0" readonly size="3" /></div>
-										<br />
-										<button class="btn btn-primary">Buy</button>
-									</div>
-								</div>
-              </div>
-          &nbsp;
-						</div>
-					</div>
-				</div>
 			</div>
 			<div class="container-fluid mybottom">
 				<footer class="page-footer font-small blue pt-4">
@@ -193,6 +185,7 @@
 				</footer>
 			</div>
 		</main>
+
 		<script src="./js/jquery3.3.1.js"></script>
 		<script src="./js/app.js"></script>
 	</body>
