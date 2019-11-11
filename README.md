@@ -12,7 +12,7 @@ We give you a platform with unlimited possibilities.
 ## Setup/Installation Requirements
 
 - Open terminal (CTRL ALT T)
-- Git clone https://github.com/kiprotichdominic/Running-Pizza
+- Git clone  <https://github.com/kiprotichdominic/Running-Pizza>
 - cd RUNNING-PIZZA-MASTER
 - On terminal type atom . to open using atom or type code . to open using Visual Studio.
 - Feel free to contribute to this project.
@@ -25,7 +25,7 @@ My website location on google maps is not correct.
 
 ## Live link to my site
 
-https://kiprotichdominic.github.io/Delani-Studio/
+<https://kiprotichdominic.github.io/Delani-Studio/>
 
 ## Technologies Used
 
@@ -38,7 +38,7 @@ https://kiprotichdominic.github.io/Delani-Studio/
 ## Support and contact details
 
 - kiprotichkorir36@gmail.com
-- Facebook https://www.facebook.com/iamdommie/
+- Facebook <https://www.facebook.com/iamdommie/>
 
 ## Licence
 
