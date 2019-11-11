@@ -8,7 +8,6 @@ function updateTotal() {
         size.value * 1;
     document.getElementById("cost").value = tot.toFixed(2);
 }
-
 var f = document.forms["myForm"];
 var sel = document.getElementsByTagName("select");
 var check = document.getElementById("checkbox");
@@ -25,3 +24,5 @@ f.onsubmit = function () {
     document.getElementById("alert1").style.display = "block"
     return false
 };
+
+

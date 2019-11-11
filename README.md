@@ -18,6 +18,9 @@ We give you a platform with unlimited possibilities.
 - Feel free to contribute to this project.
 
 ## Behaviour Driven Development
+ ### Kipchoge Pizza landing page.
+ - You click the buy button and it takes you to the buying section.
+<img src="images/home.png">
 
 ## Known Bugs
 
@@ -25,7 +28,7 @@ My website location on google maps is not correct.
 
 ## Live link to my site
 
-<https://kiprotichdominic.github.io/Delani-Studio/>
+<https://kiprotichdominic.github.io/Running-Pizza/>
 
 ## Technologies Used
 
