@@ -4,6 +4,7 @@
 @import url("bootstrap.css");
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Supermercado+One&display=swap');
 
 /* main page styling */
 body {
@@ -11,7 +12,7 @@ body {
 }
 
 .navbar a {
-    font-size: 1.8em !important;
+    font-size: 1.3em !important;
     font-weight: bold !important;
 }
 
@@ -20,7 +21,7 @@ body {
 }
 
 .myhead {
-    background: url(../images/123.jpeg);
+    background: url(../images/1);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -31,54 +32,13 @@ body {
 
 .imagetext {
     padding-top: 30vh;
-    color: white;
+    color: black;
     font-weight: bold;
-    font-size: 2vw;
+
 }
 
 .imagetext>h1 {
     font-weight: bold;
-}
-
-/* keyframes form welcome */
-.typewriter h1 {
-    overflow: hidden;
-    /* Ensures the content is not revealed until the animation */
-    border-right: .0.1em solid orange;
-    /* The typwriter cursor */
-    white-space: nowrap;
-    /* Keeps the content on a single line */
-    margin: 0 auto;
-    /* Gives that scrolling effect as the typing happens */
-    animation-direction: alternate-reverse;
-
-    animation:
-        typing 3.5s steps(30, end),
-        blink-caret .75s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-    from {
-        width: 0
-    }
-
-    to {
-        width: 100%
-    }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-
-    from,
-    to {
-        border-color: transparent
-    }
-
-    50% {
-        border-color: orange;
-    }
 }
 
 /* ORDER SECTION STYLING */
@@ -97,6 +57,9 @@ body {
     animation-duration: 2s;
     animation-name: mymouse;
 }
+.myorder {
+    font-family: "Supermercado One";
+}
 
 @keyframes mymouse {
 
@@ -114,5 +77,25 @@ body {
 
     60% {
         transform: translateY(-15px);
+    }
+}
+
+
+/* Media queries */
+@media (max-width: 767.98px) {
+    .imagetext {
+        padding-top: 0.1px;
+        color: black;
+        font-weight: bold;
+    }
+
+    .myhead {
+        background: url(../images/1);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        padding-top: 1px;
+        width: 100%;
     }
 }
