@@ -82,15 +82,15 @@
 							<div class="col-md-12">
 								<div class="card">
 									<div class="card-body" id="cartme">
-										<form action="" method="POST" name="myForm" id="myForm">
+										<form action="" method="POST" name="myForm" id="myForm" name="pizza">
 											<h3 class="text-center">Order Your Pizza</h3>
 											<div class="form-group">
 												<label for="sel1">Select size:</label><br />
-												<select class="form-control" id="size">
+												<select class="form-control" id="size" onchange="findPrice()">
 													<option value="0">Select Size</option>
-													<option value="350">Small---350</option>
-													<option value="500">Medium---500</option>
-													<option value="700">Large---700</option>
+													<option id="small" value="350">Small---350</option>
+													<option id="medium" value="500">Medium---500</option>
+													<option id="large" value="700">Large---700</option>
 												</select>
 											</div>
 											<div>

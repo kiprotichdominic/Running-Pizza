@@ -19,10 +19,10 @@ for (var i = 0; i < sel.length; i++) {
 }
 
 f.onsubmit = function () {
+    prompt("Enter Your Location")
+    confirm("Do you want your order to be delivered to your location at Ksh. 200?");
     alert("Your total cost will be: Ksh " + f.cost.value);
     document.getElementById("span1").innerHTML = ("Your order has been received. We are always glad to serve you. Your total cost is Ksh " + f.cost.value + " and will be delivered to your location.<br> NO PIZZA IS LIMITED");
     document.getElementById("alert1").style.display = "block"
     return false
 };
-
-
